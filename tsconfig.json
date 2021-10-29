@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "resolveJsonModule": true
+  },
+  "include": ["./scripts", "./test", "tested/Pool_mint&burn.test.ts", "test/Pool_init&activ.test.ts", "tested/Pool_fees.test.ts", "tested/Factory.test.ts", "tested/Pool_swapping.test.ts", "tested/positionViever.js", "tested/Factory.test.ts", "tested/LiquidityManagerHelper.test.js", "tested/multiple_swaps.test.js"],
+  "files": ["./hardhat.config.ts"]
+}
